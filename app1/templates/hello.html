@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello Gold </h1>
+    
+    <form action="add/" method="post">
+    {% csrf_token %}
+    <label>  Enter the name  </label>   
+    <input type="text" name="name" >
+    <label > Enter the Rollno. </label>
+    <input type="text" name="rollno">
+    <input type="submit">
+    </form>
+</body>
+</html>
